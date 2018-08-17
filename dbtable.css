@@ -1,0 +1,46 @@
+    table{
+        transform: translate(0%,7%);
+    }
+    table,th,td{
+        border:2px solid blue;
+        border-collapse:collapse;
+        text-align:center;
+        float:none;
+        padding:15px;
+    }
+    h1{
+        text-align: center;
+        font-family: serif;
+        color: lightslategray;
+        font-size: 55px;
+        text-decoration: underline;
+
+    }
+    body{
+        background-color:mediumspringgreen;
+    }
+    a{
+        text-decoration: none;
+    }
+    .link{
+        background-color:rgb(212, 212, 226); 
+        display:inline-block;
+        float: right;
+        padding: 14px 24px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transform: translate(-290%,250%);
+        color:black;
+        width:150px;
+        height:30px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .link:hover{
+        text-decoration: underline;
+        background-color: red;
+
+    }
+    .topic{
+        background-color: blue;
+        font-size: 30px;
+    }

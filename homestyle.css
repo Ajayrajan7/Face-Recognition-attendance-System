@@ -1,0 +1,53 @@
+body{
+    background-image: url("image1.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box,.box2{
+    text-align: center;
+    display:inline-block;
+    padding: 14px 24px;
+    font-family: fantasy;
+    width: 150px;
+    height: 30px;
+    border-style: dashed;
+    border-radius: 9%
+    
+}
+.box2{
+    background-color: blueviolet;
+    float: right ;
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+    transform: translate(275%,150%);
+}
+.box{
+    background-color: brown;
+    float: right;
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+    transform: translate(275%,-75%);
+}
+.box:hover{
+    background-color: burlywood;
+    text-decoration: underline;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.box2:hover{
+    background-color:greenyellow;
+    text-decoration: underline; 
+}
+h1{
+    text-align: center;
+    color:ivory;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}

@@ -1,0 +1,168 @@
+body{
+    padding:0;
+    margin:0;
+    background-size:cover;
+    background-image:url("image1.jpg");
+    background-position:center;
+     background-repeat: no-repeat;
+    
+    
+}
+.image{
+    width:100px;
+    height: 170px;
+    top:-85px;
+    border-radius:50%;
+    position: absolute;
+    left:35%;
+
+    
+
+}
+.box:hover{
+    border-color:rgb(235, 200, 210);
+    border-radius: 9px;
+    
+}
+.box{
+    width:200px;
+    height: 120px;
+    padding: 70px;
+    background:rgba(0, 0, 0, 0.39);
+    color:black; 
+    border-style:inset;
+    border-width:6px;
+    border-color:rgb(250, 219, 219); 
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    border-radius: 12px;
+    
+
+}
+h2{
+  text-align: center;
+  padding:0px -12px;
+  font-size: 20px;
+ padding-left: 0px;
+  border-color: rgb(236, 17, 82);
+  border-style:solid;
+  background-color: rgb(222, 233, 233);
+  text-align: center;
+  margin-top: -45%;
+
+
+   }
+
+h2:hover
+{  
+    color:rgb(4, 3, 17);
+    background-color:rgb(176, 242, 247);
+    border-color: rgb(145, 19, 38);
+    border-radius: 11px;
+
+    
+}
+.box input[type=text]
+{
+    color:green;
+    width:70px;
+    height:30px;
+    position: absolute;
+    left:15%;
+    top:20%;
+    background-color:bisque;
+    border-color: rgb(53, 10, 209);
+    border-radius: 11px;
+    border-bottom-width: 6px;
+    transition-property:width;
+    transition-duration: 2s;
+    margin-top: -10px;
+}
+.box input[type=email]{
+    color:green;
+    width:70px;
+    height:30px;
+    position: absolute;
+    left:15%;
+    top:40%;
+    background-color:bisque;
+    border-color: rgb(53, 10, 209);
+    border-radius: 11px;
+    border-bottom-width: 6px;
+    transition-property:width;
+    transition-duration: 2s;
+    margin-top: -10px;
+    
+}
+.box input[type=password]{
+    color:rgb(56, 179, 56);
+    width:70px;
+    height:31px;
+    position:absolute;
+    top:50%;
+    left:15%;
+    background-color: bisque;
+
+    border-bottom-width: 6px;
+    border-color: rgb(53, 10, 209);
+    border-radius: 11px;
+   transition-property:width,height;
+   transition-duration: 1.2s;
+    margin-top: 20px;
+    
+}
+.box input:hover{
+
+    border-bottom-color: rgb(223, 15, 15);
+    width:150px;
+    text-align: center;
+    color:rgb(17, 12, 12);
+    font-weight: bolder;
+    
+}
+
+.box input[type=submit]{
+    width:90px;
+    height:30px;
+    position: absolute;
+    top:250px;
+    left:111px;
+    font-size: 14px;
+    background-color:rgba(189, 216, 189, 0.897);
+    border-color:rgb(7, 226, 73);
+    border-width:2px;
+    color:rgb(5, 90, 9);
+    
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+::placeholder{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.box h4{
+    color:wheat;
+    position: absolute;
+    top:170px;
+    left:10px;
+}
+
+.box a:visited
+{
+    color:red;
+}
+.box a:hover{
+    color:rgb(75, 13, 221);
+}
+
