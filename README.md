@@ -7,7 +7,7 @@ and takes huge time.But our AI face recognition system will capture withing 2 se
   First run the dataset.py file in python IDLE,it'll create a folder in specified directory and the captures the image from the camera with the help of python open cv.And we can view the images from the specified directory.Specify unique id for each.
   
   File training.py:
-    Then run the fail to train the images which are present in the dataset folder.Training is must before recognizing the face because after the training the haarcascade files are created.
+    Then run the file to train the images which are present in the dataset folder.Training is must before recognizing the face because after the training the haarcascade files are created.
     
   File original.py:
      Then finally run the original.py file which compares the haarcascade files with real faces detected in the camera.Then it'll produce the accurate output to the database.Note that you have to create a database table to store the results and to fetch and don't forget to connect python to the databse using mysql.connector.
